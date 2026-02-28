@@ -14,4 +14,9 @@ public class CseControllerTest {
 		int res = c.addCSE(2, 3);
 		assertEquals(5, res);
 	}
+	@Test
+	void test1() {
+		String res = c.roll();
+		assertEquals("23MH1A05F7 ROLL FUNCTION!", res);
+	}
 }

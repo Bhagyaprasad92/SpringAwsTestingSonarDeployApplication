@@ -10,4 +10,8 @@ public class CseController {
 	public int addCSE(@RequestParam int a, @RequestParam int b) {
 		return a + b;
 	}
+	@GetMapping("/Roll")
+	public String roll() {
+		return "23MH1A05F7 ROLL FUNCTION!";
+	}
 }
